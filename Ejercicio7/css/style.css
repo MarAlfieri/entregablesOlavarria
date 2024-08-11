@@ -1,0 +1,57 @@
+html {
+    font: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenedor {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-content: space-around;
+    background-color: white;
+    height: 100px;
+    width: 100%;  
+}
+.foto {
+    background-color: rgb(146, 207, 54);
+    height: 100px;
+    width:  100px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.rectangulo {
+    text-align: center;
+    border-style: solid;
+    border-radius: 3 px;
+}
+.destacado {
+    color: rgb(89, 0, 255); 
+    font-weight: bold;
+}
+
+ol>li>a:link {
+    color:black;
+}
+
+ol>li:hover {
+    font-style: oblique;
+    background-color: yellow;
+    cursor:pointer;
+}
+
+ol>li:hover {
+    font-style: oblique;
+    color: red;
+    background-color: yellow;
+    cursor:pointer;
+}
+
+ol>li:active {
+    background-color: black;
+    color: white;
+}
+
+ol>li>a:active {
+    background-color: black;
+    color: white;
+}

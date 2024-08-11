@@ -1,0 +1,93 @@
+.contenedor {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-content: space-around;
+    background-color: white;
+    height: 900px;
+    width: 100%;  
+}
+
+.caja1 {
+        background-color: rgb(146, 207, 54);
+        height: 20%;
+        width:  20%;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        position: relative;
+}
+
+.caja2 {
+    background-color: gray;
+    height: 20%;
+    width:  77%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: relative;
+   
+}
+
+.caja3 {
+    background-color: rgb(245, 230, 211);
+    border-style: solid;
+    border-width: 3px;
+    height: 5%;
+    width: 97.5%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.caja4 {
+    background-color: rgb(199, 101, 199);
+    height: 50%;
+    width: 25%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.subcontenedor {
+    display: flex;
+    flex-flow: row wrap;
+    height: 50%;
+    width: 73%;
+    position: relative;
+}
+.caja5 {
+    background-color: rgb(83, 190, 252);
+    height: 48.7%;
+    width: 48.6%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    
+}
+
+.caja6 {
+    background-color: rgb(230, 53, 141);
+    height: 48.7%;
+    width: 48.6%;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.caja7 {
+    background-color: rgb(247, 179, 34);
+    height: 49%;
+    width: 100%;
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.caja8 {
+    background-color: rgb(56, 215, 236);
+    border-style: dashed;
+    border-width: 3px;
+    height: 20%;
+    width:  97.5%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: relative;
+
+}

@@ -1,0 +1,22 @@
+.contenedor {
+    display: flex;
+    flex-flow: row;
+    justify-content:space-between;
+    align-content: space-around;
+    background-color: white;
+    height: 100px;
+    width: 100%;  
+}
+.zona {
+    align-content: flex-end;
+    background-color: rgb(146, 207, 54);
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+.ocultar {
+    visibility: hidden;
+}
+.boton {
+    margin-left: 22%;
+}
